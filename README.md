@@ -47,7 +47,8 @@ macOS High Sierra (OSX 10.13.4)でのみ動作検証しています。
 
 ## 自分でコンパイル
 
-バイナリのダウンロードが心配な方は、ソースを自分でコンパイルしてバイナリを作成してください。
+バイナリのダウンロードが心配な方は、[本体のソース](https://github.com/KEINOS/NeCab_MeCab-wrapper/tree/master/src)を自分でコンパイルしてバイナリを作成してください。
 
+- [コンパイルの仕方](https://github.com/KEINOS/NeCab_MeCab-wrapper/tree/master/src)
 
 
