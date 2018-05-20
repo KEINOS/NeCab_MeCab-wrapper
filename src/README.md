@@ -18,7 +18,7 @@ Hello World!
 コンパイルすると以下の警告が出ても問題ありません。これは、ソースの中で定義されていない関数 `hello` が使われているためです。この関数はリンクされたライブラリ内で定義されています。
 
 ```
-$ gcc -o NeCab main.c -lm ../dylib_sample/helloworld.dylib
+$ gcc -o NeCab main.c -lm helloworld.dylib
 main.c:2:9: warning: implicit declaration of function 'hello' is invalid in C99
       [-Wimplicit-function-declaration]
         return hello();
