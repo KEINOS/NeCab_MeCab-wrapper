@@ -47,6 +47,48 @@ $ otool -L /usr/lib/libmecab.dylib
 	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1252.0.0)
 ```
 
+## `libmecab.dylib`ライブラリのシンボル一覧
+
+```
+nm -gU /usr/lib/libmecab.dylib
+00000000000350d8 T __ZN5MeCab12createTaggerEPKc
+000000000003503e T __ZN5MeCab12createTaggerEiPPc
+00000000000351b3 T __ZN5MeCab14getTaggerErrorEv
+0000000000028952 T _mecab_cost_train
+000000000002feb4 T _mecab_destroy
+000000000000b11c T _mecab_dict_gen
+000000000003b99c T _mecab_dict_index
+0000000000030231 T _mecab_dictionary_info
+00000000000351d4 T _mecab_do
+0000000000030203 T _mecab_format_node
+000000000003011e T _mecab_get_feature
+000000000003027b T _mecab_get_input_code
+00000000000300ed T _mecab_get_lastname_length
+000000000002feee T _mecab_get_lattice_level
+000000000003025f T _mecab_get_maximal_input_code_length
+00000000000300bd T _mecab_nbest_init
+000000000003014c T _mecab_nbest_init2
+00000000000301d8 T _mecab_nbest_next_tonode
+000000000003017c T _mecab_nbest_next_tostr
+00000000000301a7 T _mecab_nbest_next_tostr2
+0000000000030030 T _mecab_nbest_sparse_tostr
+000000000003005e T _mecab_nbest_sparse_tostr2
+000000000003008c T _mecab_nbest_sparse_tostr3
+000000000002fd9c T _mecab_new
+000000000002fe0d T _mecab_new2
+000000000002ff1c T _mecab_set_lattice_level
+000000000002ffd4 T _mecab_sparse_tonode
+0000000000030002 T _mecab_sparse_tonode2
+000000000002ff4b T _mecab_sparse_tostr
+000000000002ff79 T _mecab_sparse_tostr2
+000000000002ffa7 T _mecab_sparse_tostr3
+000000000002fe7c T _mecab_strerror
+0000000000014c70 T _mecab_system_eval
+0000000000016185 T _mecab_test_gen
+000000000002fe6f T _mecab_version
+```
+
+
 ## `libmecab.dylib`ライブラリがロードするコマンド
 
 以下は `otool -l /usr/lib/libmecab.dylib` の結果です。
@@ -391,9 +433,3 @@ Load command 18
   dataoff 827472
  datasize 15760
 ```
-
-## 参考文献
-
-- [dynamic library の OS Xの補足](https://qiita.com/false-git@github/items/cb4528701752f76cfaa7) @ Qiita
-- [macOSのコマンドラインアプリでdylibをよろしく扱う方法](https://qiita.com/omochimetaru/items/21d662b8df8bce1bc5ca) @ Qiita
-

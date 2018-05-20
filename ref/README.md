@@ -2,6 +2,8 @@ macOS HighSierra (OSX 10.13.4) で ダイナミック・ライブラリ（`.dyli
 
 - Apple 公式の基本リファレンス
     - [Dynamic Library Programming Topics](https://developer.apple.com/library/content/documentation/DeveloperTools/Conceptual/DynamicLibraries/000-Introduction/Introduction.html) @ developer.apple.com
+- Dylib内のシンボル一覧を出力
+    - [How to print a list of symbols exported from a dynamic library](https://stackoverflow.com/questions/4506121/how-to-print-a-list-of-symbols-exported-from-a-dynamic-library) @ Stackoverflow
 - Dynamic **Link** ライブラリと Dynamic **Load** ライブラリの違い
     - [.soや.dylibや.aファイル、共有ライブラリなどについて調べてみた](http://d.hatena.ne.jp/kanonji/20121018/1350538932) @ kanonjiの日記
 - `hello world` の `.dylib` を作るのに参考にしたサイト
@@ -13,3 +15,8 @@ macOS HighSierra (OSX 10.13.4) で ダイナミック・ライブラリ（`.dyli
     - [https://github.com/metaps/mecab/blob/master/ext/mecab/mecab.h](https://github.com/metaps/mecab/blob/master/ext/mecab/mecab.h)
 - 別ディレクトリにあるユーザ作成の `.dylib` が絶対パスで指定できない問題
     - [@clang チャンネル](https://discord.gg/C8Pu95u) @ Discord
+
+## 未整理
+
+- [dynamic library の OS Xの補足](https://qiita.com/false-git@github/items/cb4528701752f76cfaa7) @ Qiita
+
