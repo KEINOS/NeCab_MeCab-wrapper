@@ -11,5 +11,5 @@
 
 ```
 $ cd dylib_sample
-$ gcc -dynamiclib -o helloworld.dylib helloworld.c
+$ gcc -dynamiclib -o libhelloworld.dylib helloworld.c
 ```

@@ -1,0 +1,4 @@
+bin/SampleApp
+src/SampleApp
+src/NeCab
+*/*.dylib

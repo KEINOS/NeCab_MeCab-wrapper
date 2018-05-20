@@ -1,5 +1,5 @@
-int hello();
+#include <stdio.h>
 
-int main(){
-	return hello();
+int main(void) {
+    printf("Hello World!\n");
 }
