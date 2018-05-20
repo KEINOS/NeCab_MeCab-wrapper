@@ -8,3 +8,6 @@ macOS HighSierra (OSX 10.13.4) で ダイナミック・ライブラリ（`.dyli
     - [OSXのdylibを作ってみる](http://taichino.com/programming/2533#more-2533) @ taichino.com
 - 対象となるダイナミック・ライブラリに関する諸情報を取得する
     - [macOSのコマンドラインアプリでdylibをよろしく扱う方法](https://qiita.com/omochimetaru/items/21d662b8df8bce1bc5ca) @ Qiita
+    - [関数が定義されているか確認する](https://qiita.com/edo_m18/items/aa6cb84c0456fc6ce5c0) @ Qiita
+- 本家の MeCab のソースコード
+    - [https://github.com/metaps/mecab/blob/master/ext/mecab/mecab.h](https://github.com/metaps/mecab/blob/master/ext/mecab/mecab.h)
