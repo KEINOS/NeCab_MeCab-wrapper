@@ -2,7 +2,7 @@
 
 # NeCab（根布蕪）
 
-`NeCab`（ねかぶ）は、macOSX に標準インストールされている [MeCab](https://ja.wikipedia.org/wiki/MeCab) のダイナミック・ライブラリを使うためのラッパー・コマンドです。
+`NeCab`（ねかぶ）は、macOSX に標準インストールされている [MeCab](https://ja.wikipedia.org/wiki/MeCab) の動的（ダイナミック）ライブラリを使うためのラッパー・コマンドです。
 
 ## 使い方
 
