@@ -11,3 +11,5 @@ macOS HighSierra (OSX 10.13.4) で ダイナミック・ライブラリ（`.dyli
     - [関数が定義されているか確認する](https://qiita.com/edo_m18/items/aa6cb84c0456fc6ce5c0) @ Qiita
 - 本家の MeCab のソースコード
     - [https://github.com/metaps/mecab/blob/master/ext/mecab/mecab.h](https://github.com/metaps/mecab/blob/master/ext/mecab/mecab.h)
+- 別ディレクトリにあるユーザ作成の `.dylib` が絶対パスで指定できない問題
+    - [@clang チャンネル](https://discord.gg/C8Pu95u) @ Discord
