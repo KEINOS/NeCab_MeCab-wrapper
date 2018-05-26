@@ -51,6 +51,3 @@ macOS High Sierra (OSX 10.13.4)でのみ動作検証しています。
 
 - [コンパイルの仕方](https://github.com/KEINOS/NeCab_MeCab-wrapper/tree/master/src)
 
-## ほげ<a name='hoge'></a>
-
-ホゲ
